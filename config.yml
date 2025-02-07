@@ -1,3 +1,4 @@
+version: "1.0" #NON CAMBIARE
 messages:
   own_ping: "&aIl tuo ping è di: &b{ping}ms"
   other_ping: "&aIl ping di &b{player} &aè di: &b{ping}ms"
