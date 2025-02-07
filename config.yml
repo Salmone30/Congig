@@ -1,0 +1,6 @@
+messages:
+  own_ping: "&aIl tuo ping è di: &b{ping}ms"
+  other_ping: "&aIl ping di &b{player} &aè di: &b{ping}ms"
+  player_not_found: "&cIl giocatore specificato non è online o non esiste!"
+  player_only: "&cSolo i giocatori possono usare questo comando!"
+  usage: "&eUsa il comando nel modo corretto: &b/ping &eoppure &b/ping <giocatore>"
