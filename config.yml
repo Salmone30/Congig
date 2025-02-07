@@ -1,4 +1,7 @@
-version: "1.0" #NON CAMBIARE
+#EverPing developed by salmone3O for EverCraft
+
+version: "1.0" #NON CAMBIARE / DO NOT CHANGE
+
 messages:
   own_ping: "&aIl tuo ping è di: &b{ping}ms"
   other_ping: "&aIl ping di &b{player} &aè di: &b{ping}ms"
