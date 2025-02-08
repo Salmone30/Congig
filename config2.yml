@@ -1,6 +1,8 @@
 version: "1.0"
-log-format: '[EverCensor] {player} ha scritto: {message}'
+log-format: '&7[&6EverCensor&7] &f{player} ha scritto: &e{message}'
 click-message: '/localmute {player} 1d Linguaggio scurrile -s'
+hover-message: '&aClicca qui per mutare &b{player}'
 censored-words:
-  parola_inappropriata1: '***'
-  parola_inappropriata2: '***'
+  cazzo: 'c***o'
+  merda: 'm***a'
+  stronzo: 's*****o'
