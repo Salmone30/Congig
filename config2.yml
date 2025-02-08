@@ -1,12 +1,6 @@
-# EverCensor for EverCraft by salmone3O
-log-format: "[EverCensor] {player} ha scritto: {message}"
-
-click-message: "/localmute {player} 1d Linguaggio scurrile -s"
-
+version: "1.0"
+log-format: '[EverCensor] {player} ha scritto: {message}'
+click-message: '/localmute {player} 1d Linguaggio scurrile -s'
 censored-words:
-  cazzo: "c***o"
-  merda: "m***a"
-  stronzo: "s*****o"
-
-# abilitare (true) se si vogliono aggiungere più censure
-enable-custom-words: true
+  parola_inappropriata1: '***'
+  parola_inappropriata2: '***'
