@@ -1,7 +1,15 @@
-version: "1.0"
+# EverCensor for EverCraft by salmone3O
+# {player}, {message}
+version: "1.0" # DO NOT CHANGE
+
 log-format: '&7[&6EverCensor&7] &f{player} ha scritto: &e{message}'
 click-message: '/localmute {player} 1d Linguaggio scurrile -s'
-hover-message: '&aClicca qui per mutare &b{player}'
+
+hover-message:
+  - '&aClicca qui per mutare &b{player}'
+  - '&eSeconda riga del messaggio'
+  - '&7Puoi aggiungere quante righe vuoi'
+
 censored-words:
   cazzo: 'c***o'
   merda: 'm***a'
