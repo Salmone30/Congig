@@ -1,8 +1,8 @@
 # EverCensor for EverCraft by salmone3O
-# {player}, {message}
+# {player}, {server}, {message}
 version: "1.0" # DO NOT CHANGE
 
-log-format: '&7[&6EverCensor&7] &f{player} ha scritto: &e{message}'
+log-format: '&7[&6EverCensor&7] &f{player} in &b{server} &fha scritto: &e{message}'
 click-message: '/localmute {player} 1d Linguaggio scurrile -s'
 
 hover-message:
