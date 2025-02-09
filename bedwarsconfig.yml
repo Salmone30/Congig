@@ -1,49 +1,64 @@
-# Configurazione del plugin BedWars
+# Configurazione del plugin BedWars su Velocity
 
+# Abilitazione della comunicazione tra Velocity e Spigot
+velocity_connection:
+  enabled: true # Se true, il plugin Velocity si connetterà ai server Spigot
+  spigot_server_name: "bedwars_server" # Nome del server Spigot da collegare
+  message_prefix: "&7[BedWars]" # Prefisso dei messaggi inviati tra i server
+
+# Configurazione per la gestione dei giocatori e dei comandi tra i server
+player_teleportation:
+  enabled: true
+  teleport_command: "/bw teleport" # Comando da inviare quando un giocatore entra in una partita o si teletrasporta
+
+# Sezione per la gestione delle modalità di gioco (solo su Velocity, senza bisogno di config su Spigot)
+game_modes:
+  - Solo
+  - Duo
+  - Trio
+  - Squad
+
+# Opzioni per la gestione della lobby
+lobby_settings:
+  enabled: true
+  lobby_name: "&cLobby" # Nome visualizzato per la lobby
+  teleport_command: "/bw teleport_to_lobby" # Comando per teletrasportare i giocatori nella lobby
+
+# Sezione per il Knockback Stick, se usato come oggetto in gioco
 knockback_stick:
-  name: "KnockBakinator"
-  slot: 1
-  unmovable: true
-  undroppable: true
+  enabled: true
+  name: "KnockBakinator" # Nome dell'oggetto
+  slot: 1 # Slot in cui viene posizionato l'oggetto
+  unmovable: true # L'oggetto non può essere mosso
+  undroppable: true # L'oggetto non può essere lasciato cadere
 
+# Profilo del giocatore, se usato come oggetto in gioco
 profile_head:
-  name: "&bIl Tuo Profilo"
-  slot: 2
-  unmovable: true
-  undroppable: true
+  enabled: true
+  name: "&bIl Tuo Profilo" # Nome dell'oggetto
+  slot: 2 # Slot in cui viene posizionato l'oggetto
+  unmovable: true # L'oggetto non può essere mosso
+  undroppable: true # L'oggetto non può essere lasciato cadere
 
-private_bedwars:
-  name: "&cBedwars Private"
-  slot: 3
-  unmovable: true
-  undroppable: true
-
-mode_selector:
-  name: "&aModalità di Gioco"
-  slot: 5
-  modes:
-    - Solo
-    - Duo
-    - Trio
-    - Squad
-
+# Parkour (posizionamento teleport)
 parkour:
+  enabled: true
   name: "&cParkour"
-  slot: 7
   teleport_coordinates:
     world: "world"
     x: 100
     y: 65
-    z: 200
+    z: 200 # Coordinate di teleport per il parkour
 
+# Toggle per abilitare/disabilitare la visibilità dei giocatori
 players_toggle:
-  enabled_name: "&aGiocatori Abilitati"
-  disabled_name: "&cGiocatori Disabilitati"
-  slot: 8
-  item_enabled: BLUE_DYE
-  item_disabled: GRAY_DYE
+  enabled: true
+  item_enabled: "BLUE_DYE" # Oggetto per abilitare la visibilità
+  item_disabled: "GRAY_DYE" # Oggetto per disabilitare la visibilità
 
+# Configurazione del Bed (teletrasporto alla lobby)
 lobby_bed:
+  enabled: true
   name: "&cLobby"
-  slot: 9
-  teleport_server: "main_lobby"
+  slot: 9 # Slot in cui posizionare il Bed
+  teleport_command: "/bw teleport_to_lobby" # Comando per teletrasportarsi alla lobby
