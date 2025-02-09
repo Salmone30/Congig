@@ -1,0 +1,36 @@
+bots:
+  Solo:
+    display_name: "&dGIOCA ORA\n&bSolo &7(1.0)\n&e{player_count} Giocatori online"
+    spawn_location:
+      world: "mondo"
+      x: 100.5
+      y: 65.0
+      z: 200.5
+    skin: "NomeSkinSolo"
+
+  Duo:
+    display_name: "&dGIOCA ORA\n&bDuo &7(1.0)\n&e{player_count} Giocatori online"
+    spawn_location:
+      world: "mondo"
+      x: 110.5
+      y: 65.0
+      z: 200.5
+    skin: "NomeSkinDuo"
+
+  Trio:
+    display_name: "&dGIOCA ORA\n&bTrio &7(1.0)\n&e{player_count} Giocatori online"
+    spawn_location:
+      world: "mondo"
+      x: 120.5
+      y: 65.0
+      z: 200.5
+    skin: "NomeSkinTrio"
+
+  Squad:
+    display_name: "&dGIOCA ORA\n&bSquad &7(1.0)\n&e{player_count} Giocatori online"
+    spawn_location:
+      world: "mondo"
+      x: 130.5
+      y: 65.0
+      z: 200.5
+    skin: "NomeSkinSquad"
