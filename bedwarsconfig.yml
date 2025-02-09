@@ -1,0 +1,49 @@
+# Configurazione del plugin BedWars
+
+knockback_stick:
+  name: "KnockBakinator"
+  slot: 1
+  unmovable: true
+  undroppable: true
+
+profile_head:
+  name: "&bIl Tuo Profilo"
+  slot: 2
+  unmovable: true
+  undroppable: true
+
+private_bedwars:
+  name: "&cBedwars Private"
+  slot: 3
+  unmovable: true
+  undroppable: true
+
+mode_selector:
+  name: "&aModalità di Gioco"
+  slot: 5
+  modes:
+    - Solo
+    - Duo
+    - Trio
+    - Squad
+
+parkour:
+  name: "&cParkour"
+  slot: 7
+  teleport_coordinates:
+    world: "world"
+    x: 100
+    y: 65
+    z: 200
+
+players_toggle:
+  enabled_name: "&aGiocatori Abilitati"
+  disabled_name: "&cGiocatori Disabilitati"
+  slot: 8
+  item_enabled: BLUE_DYE
+  item_disabled: GRAY_DYE
+
+lobby_bed:
+  name: "&cLobby"
+  slot: 9
+  teleport_server: "main_lobby"
