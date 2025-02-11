@@ -3,14 +3,6 @@ scoreboard:
   lines:
     - "&7Giocatori: &a%online_players%"
     - "&7Partite in corso: &a%active_games%"
-    - ""
-    - "&7KnockBakinator: &aClick per diverterti!"
-    - "&7Profilo: &aClick per vedere le tue statistiche"
-    - "&7Bedwars Private: &aInvita un amico!"
-    - "&7Modalità: &aSeleziona una modalità"
-    - "&7Parkour: &aScopri il parkour"
-    - "&7Giocatori: &aAttiva/disattiva i giocatori"
-    - "&7Torna alla Lobby: &aClick per tornare"
 
 tab:
   header: "&bBedwars Lobby"
