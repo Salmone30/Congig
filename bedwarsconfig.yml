@@ -1,53 +1,53 @@
 inventory:
   items:
-    - id: 0
+    knockbakinator:
+      slot: 0
       material: STICK
       name: "&aKnockBakinator"
       lore:
         - "&7Clicca per diverterti!"
-      unbreakable: true
-      slot: 0
-    - id: 1
-      material: SKULL_ITEM
-      data: 3
-      name: "&bIl Tuo Profilo"
-      lore:
-        - "&7Clicca per vedere le tue statistiche"
-      unbreakable: true
+    Profilo:
       slot: 1
-    - id: 2
+      material: SKULL_ITEM
+      name: "&bProfilo"
+      lore:
+        - "&bIl Tuo Profilo"
+    Private:
+      slot: 2
       material: ANVIL
       name: "&cBedwars Private"
       lore:
         - "&7Invita un amico!"
-      unbreakable: true
-      slot: 2
-    - id: 4
-      material: STAR
+    Modalità:
+      slot: 4
+      material: NETHER_STAR
       name: "&eModalità"
       lore:
         - "&7Seleziona una modalità"
-      unbreakable: true
-      slot: 4
-    - id: 6
+    Parkour:
+      slot: 7
       material: LADDER
       name: "&cParkour"
       lore:
         - "&7Scopri il parkour"
-      unbreakable: true
-      slot: 6
-    - id: 7
-      material: WOOL
-      data: 11
+    Giocatori:
+      slot: 8
+      material: LIGHT_BLUE_DYE
       name: "&aGiocatori Abilitati"
       lore:
         - "&7Attiva/disattiva i giocatori"
-      unbreakable: true
-      slot: 7
-    - id: 8
+    Lobby:
+      slot: 9
       material: BED
       name: "&cTorna alla Lobby"
       lore:
-        - "&7Torna alla vera lobby"
-      unbreakable: true
-      slot: 8
+        - "&7Torna alla lobby"
+
+lobby:
+  spawn:
+    world: world
+    x: 0.5366884198678812
+    y: 67.0
+    z: 0.41076905839123434
+    yaw: 0.0
+    pitch: 0.0
