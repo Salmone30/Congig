@@ -1,17 +1,36 @@
 bots:
   solo:
-    - "&dGIOCA ORA" 
-    - "&bSolo &7(1.0)"  # Nome del bot
-    - "&e0 Giocatori online" 
+    name: 
+      - "&dGIOCA ORA"
+      - "&bSolo &7(1.0)"
+      - "&e0 Giocatori online"
+    skin:
+      texture: "INSERISCI_TEXTURE_VALIDA"
+      signature: "INSERISCI_SIGNATURE_VALIDA"
+  
   duo:
-    - "&dGIOCA ORA" 
-    - "&bDuo &7(2.0)" 
-    - "&e0 Giocatori online" 
+    name: 
+      - "&dGIOCA ORA"
+      - "&bDuo &7(2.0)"
+      - "&e0 Giocatori online"
+    skin:
+      texture: "INSERISCI_TEXTURE_VALIDA"
+      signature: "INSERISCI_SIGNATURE_VALIDA"
+  
   trio:
-    - "&dGIOCA ORA" 
-    - "&bTrio &7(3.0)" 
-    - "&e0 Giocatori online" 
+    name: 
+      - "&dGIOCA ORA"
+      - "&bTrio &7(3.0)"
+      - "&e0 Giocatori online"
+    skin:
+      texture: "INSERISCI_TEXTURE_VALIDA"
+      signature: "INSERISCI_SIGNATURE_VALIDA"
+  
   squad:
-    - "&dGIOCA ORA" 
-    - "&bSquad &7(4.0)" 
-    - "&e0 Giocatori online" 
+    name: 
+      - "&dGIOCA ORA"
+      - "&bSquad &7(4.0)"
+      - "&e0 Giocatori online"
+    skin:
+      texture: "INSERISCI_TEXTURE_VALIDA"
+      signature: "INSERISCI_SIGNATURE_VALIDA"
