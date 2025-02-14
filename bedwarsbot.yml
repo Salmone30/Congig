@@ -1,17 +1,17 @@
 bots:
   solo:
-    name: "&dGIOCA ORA"
-    tag: "&bSolo &7(1.0)"
-    players_online: "&e0 Giocatori online"
+    - "&dGIOCA ORA" 
+    - "&bSolo &7(1.0)"  # Nome del bot
+    - "&e0 Giocatori online" 
   duo:
-    name: "&dGIOCA ORA"
-    tag: "&bDuo &7(2.0)"
-    players_online: "&e0 Giocatori online"
+    - "&dGIOCA ORA" 
+    - "&bDuo &7(2.0)" 
+    - "&e0 Giocatori online" 
   trio:
-    name: "&dGIOCA ORA"
-    tag: "&bTrio &7(3.0)"
-    players_online: "&e0 Giocatori online"
+    - "&dGIOCA ORA" 
+    - "&bTrio &7(3.0)" 
+    - "&e0 Giocatori online" 
   squad:
-    name: "&dGIOCA ORA"
-    tag: "&bSquad &7(4.0)"
-    players_online: "&e0 Giocatori online"
+    - "&dGIOCA ORA" 
+    - "&bSquad &7(4.0)" 
+    - "&e0 Giocatori online" 
